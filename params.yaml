@@ -1,0 +1,24 @@
+data:
+	listings_ams: '../data/cleaned/listings_ams.csv'
+	reviews: '../data/cleaned/reviews.csv'
+	listings_ams: '../data/cleaned/listings_ams2.csv'
+	amenities2:'../data/cleaned/amenities.csv'
+	listings_ams: '../data/cleaned/listings_ams3.csv'
+
+scalers:
+	standardscaler: '../StandardScaler.ipynb'
+
+onehotencoder:
+	onehotenconder: standardscaler: '../OneHotEnconder.ipynb'
+
+
+models:
+	random_seed=11
+	model1: ../models/Model1.ipynb'
+	models2: ../models/Models2.ipynb'
+	models3: ../models/Models3.ipynb'
+	models4: ../models/Models4.ipynb'
+	models5: ../models/Models5.ipynb'
+	models6: ../models/Models6.ipynb'
+	models7: ../models/Models7.ipynb'
+
